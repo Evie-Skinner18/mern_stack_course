@@ -5,9 +5,9 @@ import './App.css';
 // declare a component by making a function, whose result is stored in a var. You can pass a param, props
 const Hello = (props) => {
   return (
-    <div>
+    <>
       <h1>Hello {props.name}, what's your fave {props.thing}?</h1>
-    </div>
+    </>
   )
 }
 
